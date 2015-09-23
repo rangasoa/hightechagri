@@ -1,0 +1,79 @@
+.top-bar {
+  background: #333333;
+  height: 1.8rem;
+  line-height: 2rem;
+  background-color: green;
+}
+button,.button
+{
+  background-color: white;
+  color: green;
+  box-shadow: white;
+  border-color: white;
+  border-style: none;
+  margin: 0 0 0.1rem;
+padding: 2rem 1rem 1rem 1rem;
+  font-size: 1rem;
+  border-top: 1;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: green; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      color: white; }
+
+.completewidth{
+  width: 100%;
+}
+
+.side-nav {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.875rem 0; }
+  .side-nav li {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 0.4375rem 0; }
+    .side-nav li a:not(.button) {
+      color: #008CBA;
+      display: block;
+      margin: 0;
+      padding: 0.4375rem 0.875rem; }
+      .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+        background: rgba(0, 0, 1, 0.025);
+        color: #1cc7ff; }
+      .side-nav li a:not(.button):active {
+        color: #1cc7ff; }
+    .side-nav li.active > a:first-child:not(.button) {
+      color: #1cc7ff;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-weight: normal; }
+    .side-nav li.divider {
+      border-top: 1px solid;
+      height: 0;
+      list-style: none;
+      padding: 0;
+      border-top-color: #e6e6e6; }
+    .side-nav li.heading {
+      color: #008CBA;
+      font-size: 0.875rem;
+      font-weight: bold;
+      text-transform: uppercase; }
+
+.intro{
+  font-family:"Georgia";    
+}
+.productName{
+  color: green;
+}
+.subheading{
+  color: red;
+
+}
+.fullscreen{
+  width: 100%;
+  color: green;
+}
+
